@@ -22,5 +22,6 @@ getWindDescription(30, false) -> "Moderate Breeze with speed of 30 km"
         System.out.println(WeatherTools.getWindDescription(30, true));
         System.out.println(WeatherTools.getWindDescription(20, false));
         System.out.println(WeatherTools.getWindDescription(30, false));
+        System.out.println(WeatherTools.getWindDescription(1, true));
     }
 }
